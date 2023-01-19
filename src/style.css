@@ -1,4 +1,5 @@
 
+
 #preloader {
   position: fixed;
   top: 0;
@@ -37,6 +38,13 @@
   background: #64ffda ;
   border-radius: 12px;
 }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #64ffda;
+  border-radius: 12px;
+}
+
 
 /* Navbar Section  */
 
