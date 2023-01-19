@@ -28,7 +28,7 @@ Run `npm run build`
 ## Color Reference 
 |  Color | Hex  |  
 |---  |  ---|
-| Green  | #64ffda  |  
+| Aquamarine (碧绿) | #64ffda  |  
 | Navy  |  #0a192f |   
-|  Light Navy | #172a45  |   
+| Light Navy | #172a45  |   
 
