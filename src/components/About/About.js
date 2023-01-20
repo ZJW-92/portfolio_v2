@@ -58,13 +58,13 @@ function About() {
         </h1>
         <Testing />
         <h1 className="project-heading">
-         Machine Learning
-        </h1>
-        <Ml />
-        <h1 className="project-heading">
          Embedded
         </h1>
         <Embedded />
+        <h1 className="project-heading">
+         Machine Learning
+        </h1>
+        <Ml />
         <h1 className="project-heading">
          Others
         </h1>
