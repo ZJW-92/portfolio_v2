@@ -9,13 +9,12 @@ import mern from "../../Assets/Projects/1.png";
 import robot from "../../Assets/Projects/2.png";
 import selfdriving from "../../Assets/Projects/9.png";
 import neurodrive from "../../Assets/Projects/3.png";
-
 import keepfit from "../../Assets/Projects/6.png";
 import modernapp from "../../Assets/Projects/7.png";
 import kitchen from "../../Assets/Projects/0.png";
 import bigdata from "../../Assets/Projects/10.png";
 import portfolio from "../../Assets/Projects/5.png";
-
+import portfolio_2 from "../../Assets/Projects/12.png";
 
 
 function Projects() {
@@ -152,12 +151,24 @@ function Projects() {
               imgPath={portfolio }
               isBlog={false}
               title="Portfolio Website Version 1  "
-              description="My portfolio of my resume of introducing myself, my background, projects and technologies I have learned and used in the past 2022."
+              description="First version of my portfolio of introducing myself, my background, projects and technologies I have used in the past year 2022 and 2023."
               tags="React.js, Next.js, React-icons, Styled components"
               ghLink="https://github.com/ZJW-92/personal_portfolio"
               demoLink="https://zhijiewei.netlify.app/"    
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={portfolio_2 }
+              isBlog={false}
+              title="Portfolio Website Version 2 "
+              description="Second version of my portfolio of introducing myself, my background, projects and technologies I have used in the past year 2022 and 2023 currently."
+              tags="React.js, React-icons, React-bootstrap, LottieFiles "
+              ghLink="https://github.com/ZJW-92/portfolio_v2"
+              demoLink="https://zhijiewei.vercel.app/"    
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
