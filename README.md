@@ -6,7 +6,7 @@
 
 ![Vercel](https://vercelbadge.vercel.app/api/ZJW-92/portfolio_v2)
 
-_**This is my second version of personal portfolio of my resume of introducing myself, my background, projects and technologies I have used in the past year 2022 and current 2023.**_
+_**This is my second version of personal portfolio of introducing myself, my background, projects and technologies I have used in the past year 2022 and 2023 currently.**_
 
 _**Previous [Version 1](https://zhijiewei.netlify.app/)**_
 
