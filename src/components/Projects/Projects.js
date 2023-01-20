@@ -55,7 +55,7 @@ function Projects() {
               imgPath={mern}
               isBlog={false}
               title="Full-stack MERN project"
-              description="A fullstack MERN application combined with Mongodb, ExpressJS, React and Node.js application to post a memory, edit, delete and count thumb up button."
+              description="A fullstack MERN application combined with Mongodb, ExpressJS, React and Node.js application to post a memory, edit, delete and count Likes."
               tags="Mongodb, Express, React, Node.js"
               ghLink="https://github.com/ZJW-92/FullStack_project"
               demoLink="https://memories-fullstackapp.netlify.app/"              
