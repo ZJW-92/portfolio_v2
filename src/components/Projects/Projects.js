@@ -80,7 +80,7 @@ function Projects() {
               isBlog={false}
               title="Virtual Self-driving Vehicle "
               description="A microservice that performs object detection for a virtual self-driving vehicle turning the steering wheel angle to avoid obstacles in front of it."
-              tags="C++, Git, VMware, Docker, OpenCV"
+              tags="C++, Git, VMware Fusion, Ubuntu, Docker, OpenCV"
               ghLink="https://github.com/ZJW-92/DIT638-Cyber-Physical-Systems-and-Systems-of-Systems"
               // demoLink="https://github.com/ZJW-92/DIT638-Cyber-Physical-Systems-and-Systems-of-Systems" 
             />
@@ -92,7 +92,7 @@ function Projects() {
               isBlog={false}
               title="NeuroDrive Smart Car"
               description="A software that allows end users to remotely control a smart car with the use of an EEG-headset and a mobile app. Moreover, the smart car can avoid obstacles in front and behind it by turning in the opposite direction."
-              tags="C++, Java, Travis CI, Arduino, SmartCar shield"
+              tags="C++, Git, Java, Travis CI, Arduino, SmartCar shield"
               ghLink="https://github.com/ZJW-92/DIT112-V20-Miniprojekt-Systemutveckling/blob/main/README.md"
               demoLink="https://www.youtube.com/watch?v=pvArIKRuUSM"    
             />
