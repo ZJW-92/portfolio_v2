@@ -11,11 +11,11 @@ _**This is my second version of personal portfolio of introducing myself, my bac
 _**Previous [Version 1](https://zhijiewei.netlify.app/)**_
 
 ## Tech stack 
-- ***_axios_***
+- ***_[axios](https://axios-http.com/docs/intro)_***: _A Javascript library used to make HTTP requests from node. js_
 - ***_[React.js](https://reactjs.org/)_***: _A JavaScript library for building user interfaces_
 - ***_[React icons](https://react-icons.github.io/react-icons/)_***: _A small library that helps you add icons to your React apps_
 - [**_react-bootstrap_**](https://react-bootstrap.github.io/): _Front-end framework for react_
-- ***_react-pdf_***
+- ***[react-pdf](https://www.npmjs.com/package/react-pdf)***: _Render the document in three different environments: web and server._
 - [***LottieFiles***](https://lottiefiles.com/): _Lightweight animations for website_
 - [***Vercel***](https://vercel.com/dashboard): _A cloud platform for deployment_
 
