@@ -16,13 +16,13 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Welcome To My Portfolio! 
-                <img alt="blank" src="https://media2.giphy.com/media/ZGHpWzdOEkMKtwLqdc/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="120"/>
+                Welcome To My Portfolio!
               </h1>
               <br/>
               <h1 className="heading-name">
                 I am
                 <strong className="main-name"> Zhijie Wei</strong>
+                <img alt="blank" src="https://media2.giphy.com/media/ZGHpWzdOEkMKtwLqdc/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="120"/>
               </h1>
               <br/> <br/>
               <h1 className="heading-name">
