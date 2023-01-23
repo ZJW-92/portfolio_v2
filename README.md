@@ -28,7 +28,8 @@ _Run `npm run build`_
 ## ***Color Reference*** 
 |  _Color_ | _Hex_  |  
 |---  |  ---|
-| _Aquamarine (碧绿)_ | #64ffda  |  
+| _Aquamarine_ | #64ffda  |  
+| _Blue green_ | #0bd1d1|
 | _Navy_  |  #0a192f |   
 | _Light Navy_ | #172a45  |   
 
