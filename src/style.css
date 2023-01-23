@@ -35,7 +35,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #64ffda ;
+  background: #0bd1d1;
   border-radius: 12px;
 }
 
@@ -209,7 +209,7 @@
 
 .Typewriter__wrapper {
   font-size: 4em !important;
-  color: #64ffda !important;
+  color: #0bd1d1 !important;
   font-weight: 500 !important;
 }
 
