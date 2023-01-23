@@ -6,7 +6,7 @@ import {
 function testing() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={1} className="tech-icons">
+      <Col xs={2} md={1} className="tech-icons">
         <SiRobotframework />
       </Col>
       <Col xs={2} md={1} className="tech-icons">
