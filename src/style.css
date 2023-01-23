@@ -59,7 +59,7 @@
 .navbar {
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
-  padding: 1rem 1rem !important;
+  padding: 0rem 1rem !important;
   font-size: 1.5rem !important;
 }
 
@@ -91,7 +91,7 @@
 
 @media (max-width: 767px) {
   .navbar {
-    padding: 1rem 2rem !important;
+    padding: 0rem 1rem !important;
     font-size: 1.5rem !important;
     background-color: #0a192f!important;
   }
@@ -192,7 +192,7 @@
 }
 
 .heading {
-  font-size: 6em !important;
+  font-size: 4em !important;
   padding-left: 50px !important;
   font-weight: 700 !important;
 }
@@ -215,8 +215,8 @@
 
 @media (max-width: 767px) {
   .Typewriter__wrapper {
-    font-size: 2.5em !important;
-    font-weight: 300 !important;
+    font-size: 3.5em !important;
+    font-weight: 500 !important;
     position: absolute !important;
   }
 }
@@ -479,7 +479,7 @@
 
 .resume {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
   justify-content: center;
 }
 
