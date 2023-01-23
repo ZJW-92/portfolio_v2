@@ -21,12 +21,12 @@ function Home() {
               </h1>
               <br/>
               <h1 className="heading-name">
-                I'm
+                I am
                 <strong className="main-name"> Zhijie Wei</strong>
               </h1>
               <br/> <br/>
               <h1 className="heading-name">
-              I'm currently seeking 
+              I am seeking 
                 <strong className="main-name"> a job of 👇</strong>
               </h1>
               <div style={{ padding: 50, textAlign: "left" }}>
