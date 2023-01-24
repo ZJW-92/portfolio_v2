@@ -35,7 +35,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #0bd1d1;
+  background: #0bd1d1 ;
   border-radius: 12px;
 }
 
@@ -188,13 +188,18 @@
 .home-content {
   padding: 9rem 0 2rem !important;
   color:#d9d9d9;
-  text-align: left;
+ 
 }
 
 .heading {
   font-size: 7em !important;
   padding-left: 50px !important;
   font-weight: 700 !important;
+
+  background-image: linear-gradient(90deg, #0ea5ea, #0bd1d1 51%, #0ea5ea)!important;
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
 }
 
 .heading-name {
@@ -205,11 +210,17 @@
 
 .main-name {
   color: #64ffda;
+  background-image: linear-gradient(90deg, #0ea5ea, #0bd1d1 51%, #0ea5ea)!important;
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
 }
 
 .Typewriter__wrapper {
   font-size: 4em !important;
-  color: #0bd1d1 !important;
+  color: #64ffda;
   font-weight: 500 !important;
 }
 
@@ -244,7 +255,10 @@
 .home-about-social {  
   text-align: center !important;
   padding-top: 55px;
-  color:silver !important;
+  background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%)!important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+
 }
 
 .home-about-social-links {
@@ -409,7 +423,9 @@
 }
 
 .project-heading {
-  color: white !important;
+  background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
