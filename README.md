@@ -1,10 +1,10 @@
-
-
 <img align="left" src="https://github.com/ZJW-92/portfolio_v2/blob/main/public/favicon.png" width="8%"/>
 
 # ***[Portfolio_v2](https://zhijiewei.vercel.app/)***
 
 ![Vercel](https://vercelbadge.vercel.app/api/ZJW-92/portfolio_v2)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cee7e3d9-727f-40b2-a58f-44a3a7d85baf/deploy-status)](https://app.netlify.com/sites/zhijie/deploys)
 
 _**This is my second version of personal portfolio of introducing myself, my background, projects and technologies I have used in the past year 2022 and 2023 currently.**_
 
