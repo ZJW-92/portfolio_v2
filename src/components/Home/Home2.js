@@ -1,10 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-
+import pdf from "../../Assets/Red-cross.pdf";
 import '@lottiefiles/lottie-player';
 import { AiFillGithub } from "react-icons/ai";
 import { SiGmail } from 'react-icons/si';
 import { FaLinkedinIn } from "react-icons/fa";
+
 
 
 function Home2() {
@@ -44,7 +45,8 @@ function Home2() {
               <br />
               ⭑ I had one year exchange study at&nbsp;
               <strong className="main-name">Högskolan i Borås </strong>
-              in 2016.
+              in 2016 and had two-month voluntary job at Red Cross second hand shop there.&nbsp;
+              <a href={pdf} style ={{color:"#64ffda", marginBottom:'20px'}}>(Reference)</a>
               <br />
               <br />
             </p>
