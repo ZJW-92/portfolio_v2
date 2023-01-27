@@ -27,7 +27,7 @@ function Home() {
               <br/> <br/>
               <h1 className="heading-name">
               I am seeking 
-                <strong className="main-name"> a job of 👇 </strong>
+                <strong className="main-name"> a new career as</strong>&nbsp;👇
               </h1>
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
