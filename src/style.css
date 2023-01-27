@@ -195,7 +195,6 @@
   font-size: 7em !important;
   padding-left: 50px !important;
   font-weight: 700 !important;
-
   background-image: linear-gradient(90deg, #0ea5ea, #0bd1d1 51%, #0ea5ea)!important;
   background-size: 100%;
   -webkit-background-clip: text;
@@ -213,15 +212,15 @@
   background-image: linear-gradient(90deg, #0ea5ea, #0bd1d1 51%, #0ea5ea)!important;
   background-size: 100%;
   -webkit-background-clip: text;
-  -moz-background-clip: text;
   -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
+ 
 }
 
 .Typewriter__wrapper {
   font-size: 4em !important;
   color: #64ffda;
   font-weight: 500 !important;
+  padding-left: 100px !important;
 }
 
 @media (max-width: 767px) {
