@@ -1,4 +1,5 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
 
 #preloader {
   position: fixed;
@@ -191,16 +192,29 @@
  
 }
 
+
 .heading {
+  font-family: 'Lobster', sans-serif  !important;
   font-size: 7em !important;
   padding-left: 50px !important;
-  font-weight: 700 !important;
+  font-weight: 300!important;
   background-image: linear-gradient(90deg, #0ea5ea, #0bd1d1 51%, #0ea5ea)!important;
   background-size: 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
 }
 
+.heading_welcome {
+  font-family: 'Lobster', sans-serif  !important;
+  font-size: 7em !important;
+  padding-left: 50px !important;
+  font-weight: 300!important;
+  background-image: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%)!important;
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+
+}
 .heading-name {
   font-size: 4em !important;
   padding-left: 50px !important;
@@ -253,6 +267,7 @@
 
 .home-about-social {  
   text-align: center !important;
+  font-family: 'Lobster'!important;
   padding-top: 55px;
   background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%)!important;
   -webkit-background-clip: text !important;
@@ -422,10 +437,11 @@
 }
 
 .project-heading {
+  font-family: 'Lobster Two',sans-serif  !important;
   background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 3em !important;
+  font-size: 5em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
 }
