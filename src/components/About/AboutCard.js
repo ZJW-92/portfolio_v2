@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
           ⭑  I have genuine passion for&nbsp;
           <strong className="main-name">Software Engineering and User Requirements. </strong>
-          Also, I am interested with Consulting, Digitalization, Cyber Security, Quality Assurance, Test Automation, DevOps and Machine Learning.
+          Also, I am interested with Consulting, Cyber Security, Quality Assurance, Test Automation, DevOps, Data Science and Machine Learning.
           <br /><br />      
           ⭑ I am careful, resistant to stress, self-motivated with a&nbsp;
           <strong className="main-name">strong </strong>
