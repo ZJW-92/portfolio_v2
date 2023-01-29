@@ -45,7 +45,7 @@ function Home2() {
               <br />
               ⭑ I had one year exchange study at&nbsp;
               <strong className="main-name">Högskolan i Borås </strong>
-              in 2016 and had two-month voluntary job at Red Cross second hand shop there.&nbsp;
+              in 2016 and had two-month voluntary job at Red Cross second hand shop.&nbsp;
               <a href={pdf} style ={{color:"#64ffda", marginBottom:'20px'}}>(Reference)</a>
               <br />
               <br />
