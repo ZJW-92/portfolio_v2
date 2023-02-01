@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-
+import blockchain from "../../Assets/Projects/13.png";
 import chatgpt from "../../Assets/Projects/11.png";
 import recipeblog from "../../Assets/Projects/8.png";
 import mern from "../../Assets/Projects/1.png";
@@ -10,7 +10,6 @@ import robot from "../../Assets/Projects/2.png";
 import selfdriving from "../../Assets/Projects/9.png";
 import neurodrive from "../../Assets/Projects/3.png";
 import keepfit from "../../Assets/Projects/6.png";
-import modernapp from "../../Assets/Projects/7.png";
 import kitchen from "../../Assets/Projects/0.png";
 import bigdata from "../../Assets/Projects/10.png";
 import portfolio from "../../Assets/Projects/5.png";
@@ -26,6 +25,18 @@ function Projects() {
         <strong>Recent Projects </strong>
         </h1>
      <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={blockchain}
+              isBlog={false}
+              title="Web3 Blockchain Social Media App"
+              description="A decentralized social media application that you have your account but not privately owned but rather your account is saved in the public blockchain away from private ownership."
+              tags="React.js, Lens Protocol, Chakra UI, Ethers, graphQL"
+              ghLink="https://github.com/ZJW-92/web3_blockchain_app"
+              demoLink="https://blockchain-social-media.netlify.app/"    
+            />
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatgpt}
@@ -107,18 +118,6 @@ function Projects() {
               tags="React.js, React-icons, material-UI, Rapid API"
               ghLink="https://github.com/ZJW-92/keep_fit_fitness_app"
               demoLink="https://keepfit-fitness.netlify.app/"    
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={modernapp}
-              isBlog={false}
-              title="ModernApp application"
-              description="ModernApp is a full-fledged, cool-designed landing page of showcasing one software company's webpage."
-              tags="Figma, React.js, React-bootstrap, Styled-components"
-              ghLink="https://github.com/ZJW-92/modernApp"
-              demoLink="https://modern-mobile-app.netlify.app/"    
             />
           </Col>
 
