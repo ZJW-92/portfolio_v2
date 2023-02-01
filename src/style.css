@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&display=swap');
+
 
 #preloader {
   position: fixed;
@@ -50,9 +52,9 @@
 /* Navbar Section  */
 
 .logo{
-  font-family: 'Lobster'  !important;
+  font-family: 'Liu Jian Mao Cao'  !important;
   font-size: 3em !important;
-  color:#0bd1d1
+  color:#64ffda
 }
 
 .sticky {
