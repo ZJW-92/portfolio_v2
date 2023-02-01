@@ -49,6 +49,12 @@
 
 /* Navbar Section  */
 
+.logo{
+  font-family: 'Lobster'  !important;
+  font-size: 3em !important;
+  color:#0bd1d1
+}
+
 .sticky {
   background-color: #0a192f !important;
   transition: all 0.3s ease-out 0s !important;
@@ -215,6 +221,7 @@
   -webkit-text-fill-color: transparent; 
 
 }
+
 .heading-name {
   font-size: 4em !important;
   padding-left: 50px !important;
