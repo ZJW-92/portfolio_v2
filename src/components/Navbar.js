@@ -33,8 +33,8 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-        <a href="/" style ={{ display:"flex", alignItems:"center", color:"#64ffda", marginBottom:'20px'}}>
-        <GiDwarfFace size= "4rem" /> <h1>Zhijie</h1>
+        <a href="/" style ={{ textDecoration: 'none',display:"flex", alignItems:"center", color:"#64ffda", marginBottom:'20px'}}>
+        <GiDwarfFace size= "4rem" /> <h1 className="logo">Zhijie</h1>
       </a>
         </Navbar.Brand>
         <Navbar.Toggle
