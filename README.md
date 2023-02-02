@@ -1,4 +1,4 @@
-<img align="left" src="https://github.com/ZJW-92/portfolio_v2/blob/main/public/favicon.png" width="8%"/>
+<img align="left" src="https://github.com/ZJW-92/portfolio_v2/blob/main/public/favicon.ico" width="8%"/>
 
 # ***[Portfolio_v2](https://zhijiewei.vercel.app/)***
 
