@@ -11,7 +11,6 @@ import robot from "../../Assets/Projects/2.png";
 import selfdriving from "../../Assets/Projects/9.png";
 import neurodrive from "../../Assets/Projects/3.png";
 import keepfit from "../../Assets/Projects/6.png";
-import kitchen from "../../Assets/Projects/0.png";
 import bigdata from "../../Assets/Projects/10.png";
 import portfolio from "../../Assets/Projects/5.png";
 import portfolio_2 from "../../Assets/Projects/12.png";
