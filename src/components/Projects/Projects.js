@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import blockchain from "../../Assets/Projects/13.png";
+import emotion from "../../Assets/Projects/14.png"
 import chatgpt from "../../Assets/Projects/11.png";
 import recipeblog from "../../Assets/Projects/8.png";
 import mern from "../../Assets/Projects/1.png";
@@ -25,6 +26,19 @@ function Projects() {
         <strong>Recent Projects </strong>
         </h1>
      <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          
+     <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="Facial Emotion Detection"
+              description="A task of recognizing a person's emotional state among angry, disgust, fear, happy, neutral, sad and surprise using CNN deep learning technology."
+              tags="Keras, Tensorflow, OpenCV, CNN"
+              ghLink="https://github.com/ZJW-92/facial_emotion_detection"
+              demoLink="https://github.com/ZJW-92/facial_emotion_detection/blob/main/README.md#visualization"    
+            />
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={blockchain}
@@ -123,25 +137,13 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={kitchen}
-              isBlog={false}
-              title="Shanghai kitchen UI/UX application"
-              description="A modern and fully responsive UI/UX restaurant menu application with react-icons and CSS."
-              tags="Figma, React, React-icons, CSS"
-              ghLink="https://github.com/ZJW-92/Gourment_Shanghai_kitchen"
-              demoLink="https://shanghai-kitchen.netlify.app/"    
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={bigdata }
               isBlog={false}
               title="Big data COVID-19 analysis "
               description="Big data analysis of COVID-19 epidemic worldwide through daily data which ranged from January 2020 to March 2021 from Johns Hopkins University. It visualizes how much and fast this epidemic spreads around the world."
               tags="Jupyter notebook, pandas, pyecharts"
               ghLink="https://github.com/ZJW-92/bigData_COVID_Analysis"
-              // demoLink="https://github.com/ZJW-92/bigData_COVID_Analysis"    
+              demoLink="https://github.com/ZJW-92/bigData_COVID_Analysis/blob/main/README.md#visualization"    
             />
           </Col>
 
