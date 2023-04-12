@@ -5,9 +5,7 @@ import Particle from "../Particle";
 import blockchain from "../../Assets/Projects/13.png";
 import emotion from "../../Assets/Projects/14.png"
 import chatgpt from "../../Assets/Projects/11.png";
-import recipeblog from "../../Assets/Projects/8.png";
-import mern from "../../Assets/Projects/1.png";
-import robot from "../../Assets/Projects/2.png";
+
 import selfdriving from "../../Assets/Projects/9.png";
 import neurodrive from "../../Assets/Projects/3.png";
 import keepfit from "../../Assets/Projects/6.png";
@@ -62,41 +60,8 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={recipeblog}
-              isBlog={false}
-              title="Optimal Recipe Blog"
-              description="A Content Management System (CMS) of showcasing different kinds of Asian cuisine with full markdown recipes, author information and comments."
-              tags="React.js, Next.js, GraphQL, TailwindCSS, Vercel"
-              ghLink="https://github.com/ZJW-92/cms_blog_app"
-              demoLink="https://optimal-recipe-blog.vercel.app/"
-            />
-          </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={mern}
-              isBlog={false}
-              title="Full-stack MERN project"
-              description="A fullstack MERN application combined with Mongodb, ExpressJS, React and Node.js application to post a memory, edit, delete and count Likes."
-              tags="Mongodb, Express, React, Node.js"
-              ghLink="https://github.com/ZJW-92/FullStack_project"
-              demoLink="https://memories-fullstackapp.netlify.app/"              
-            />
-          </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={robot}
-              isBlog={false}
-              title="Robot Framework Automation exercise"
-              description="Basic web automation testing using Selenium Library and Python. It includes test cases, mouse actions, buttons and connects with Jenkins to implement basic pipeline script. "
-              tags="Robot Framework, Pycharm, Jenkins, Selenium"
-              ghLink="https://github.com/ZJW-92/RobotFramework_exercise"
-              // demoLink="https://github.com/ZJW-92/RobotFramework_exercise"
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard

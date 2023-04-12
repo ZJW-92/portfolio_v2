@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {SiExpress,SiGraphql} from "react-icons/si";
+import {SiExpress} from "react-icons/si";
 
 import {DiNodejs,DiMongodb, DiNpm,DiDjango, } from "react-icons/di"
  
@@ -23,9 +23,6 @@ function backend() {
       </Col>
       <Col xs={2} md={1} className="tech-icons">
         <DiMongodb/>
-      </Col>
-      <Col xs={2} md={1} className="tech-icons">
-        <SiGraphql/>
       </Col>
     </Row>
   );

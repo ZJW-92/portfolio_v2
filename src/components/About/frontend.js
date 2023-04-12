@@ -3,12 +3,12 @@ import { Col, Row } from "react-bootstrap";
 
 import {AiFillHtml5} from 'react-icons/ai';
 
-import {DiCss3, DiJavascript1, DiReact, DiBootstrap, DiSass } from 'react-icons/di';
+import {DiCss3, DiJavascript1, DiReact, DiBootstrap } from 'react-icons/di';
 
 import {TbBrandNextjs} from 'react-icons/tb';
 
 import { SiMaterialui, SiTailwindcss, SiStyledcomponents, 
-  SiVite, SiFigma, SiNetlify, SiVercel, SiMarkdown} from "react-icons/si";
+  SiVite} from "react-icons/si";
 
 
   function frontend() {
@@ -30,9 +30,6 @@ import { SiMaterialui, SiTailwindcss, SiStyledcomponents,
       <DiBootstrap />
       </Col>
       <Col xs={2} md={1} className="tech-icons">
-      <DiSass />
-      </Col>
-      <Col xs={2} md={1} className="tech-icons">
       <TbBrandNextjs />
       </Col>
       <Col xs={2} md={1} className="tech-icons">
@@ -47,18 +44,8 @@ import { SiMaterialui, SiTailwindcss, SiStyledcomponents,
       <Col xs={2} md={1} className="tech-icons">
         <SiVite />
       </Col>
-      <Col xs={2} md={1} className="tech-icons">
-        <SiFigma />
-      </Col>
-      <Col xs={2} md={1} className="tech-icons">
-        <SiMarkdown />
-      </Col>
-      <Col xs={2} md={1} className="tech-icons">
-        <SiNetlify />
-      </Col>
-      <Col xs={2} md={1} className="tech-icons">
-      <SiVercel />
-      </Col>
+      
+     
     </Row>
   );
 }
